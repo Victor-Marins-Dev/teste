@@ -51,7 +51,7 @@ desafio.MapGet("/fibonacci", (int quantidade) =>
     {
         return Results.BadRequest(new
         {
-            mensagem = "O maior número inteiro aceito por essa função é 46, pois a implementação foi feita com " +
+            mensagem = "O maior número inteiro aceito por essa função é 47, pois a implementação foi feita com " +
             "um tipo int e F(48) resultaria em um número negativo"
         });
     }
